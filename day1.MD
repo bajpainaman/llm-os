@@ -1,8 +1,10 @@
 # Day 1 Schedule - Development Environment Setup
 
-This schedule expands the Day 1 task from the sprint plan (see `SprintPlan.MD` lines 19‑22). It breaks the day into 15‑minute increments for each contributing agent role.
 
 ## DevOps Agent
+
+This schedule expands on the Day 1 task from the sprint plan (see `SprintPlan.MD` lines 19-22) and breaks it into 15‑minute increments for the DevOps and agent teams.
+
 
 | Time (HH:MM) | Task | Responsible Agent |
 |--------------|------|-------------------|
