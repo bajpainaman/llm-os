@@ -1377,7 +1377,16 @@ static struct file_system_type* select_filesystem(const char *path,
 3. **Advanced Query Processing**
    - Complex semantic query optimization
    - Result ranking and filtering
-   - Context-aware search capabilities
+- Context-aware search capabilities
+
+## LLM Kernel Integration Plan
+
+The initial prototype introduces a standalone `LLM_KERNEL` module located in
+`/llm-rag-os-kernel/kernel/llm/`. This module will serve as the entry point for
+connecting language model functionality with the Linux kernel. Phase 1 focuses
+on a minimal skeleton that simply loads and unloads while providing a placeholder
+agent scheduler structure. Future phases will expand this into a full LLM-driven
+scheduler coordinating RAG memory and user requests.
 
 ## Risk Mitigation Strategies
 
