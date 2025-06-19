@@ -359,6 +359,14 @@ Before starting work on any component:
   structures.
 - Refined `LLM_KERNEL` module indentation to match kernel style.
 
+- Documented kernel build attempt and added libelf-dev dependency.
+
+
+- Created initial `LLM_KERNEL` skeleton in `kernel/llm` with stub scheduler
+  structures.
+
+
+
 ## Emergency Contacts and Escalation
 
 If you encounter critical issues or need architectural decisions:
