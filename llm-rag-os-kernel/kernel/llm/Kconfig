@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: GPL-2.0
+
+config LLM_KERNEL
+tristate "LLM kernel process (experimental)"
+help
+  Provides a skeleton kernel module integrating a Large Language Model
+  process for future LLM-RAG-OS development.
