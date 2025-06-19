@@ -6,13 +6,13 @@
 
 static int __init llm_kernel_init(void)
 {
-pr_info("LLM kernel module loaded\n");
-return 0;
+	pr_info("LLM kernel module loaded\n");
+	return 0;
 }
 
 static void __exit llm_kernel_exit(void)
 {
-pr_info("LLM kernel module unloaded\n");
+	pr_info("LLM kernel module unloaded\n");
 }
 
 module_init(llm_kernel_init);

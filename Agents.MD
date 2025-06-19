@@ -357,6 +357,7 @@ Before starting work on any component:
 - Expanded `README.md` with quick-start instructions.
 - Created initial `LLM_KERNEL` skeleton in `kernel/llm` with stub scheduler
   structures.
+- Refined `LLM_KERNEL` module indentation to match kernel style.
 
 ## Emergency Contacts and Escalation
 
