@@ -355,6 +355,9 @@ Before starting work on any component:
 - Added `scripts/day1_setup.sh` for DevOps automation of initial environment tasks.
 - Updated `SprintPlan.MD` with notes about the script.
 - Expanded `README.md` with quick-start instructions.
+- Created initial `LLM_KERNEL` skeleton in `kernel/llm` with stub scheduler
+  structures.
+- Refined `LLM_KERNEL` module indentation to match kernel style.
 
 - Documented kernel build attempt and added libelf-dev dependency.
 
