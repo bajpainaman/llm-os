@@ -136,3 +136,6 @@ This schedule expands on the Day 1 task from the sprint plan (see `SprintPlan.MD
 | 15:30-15:45 | Team sync-up and Q&A | QA Agent |
 | 15:45-16:00 | End-of-day wrap-up and next steps | QA Agent |
 
+
+A helper script (`scripts/day1_setup.sh`) automates these DevOps tasks for reproducibility.
+
