@@ -351,6 +351,11 @@ Before starting work on any component:
 - [ ] Update this `Agents.MD` with your contribution area
 - [ ] Begin implementation with frequent commits and documentation updates
 
+## Recent Contributions
+- Added `scripts/day1_setup.sh` for DevOps automation of initial environment tasks.
+- Updated `SprintPlan.MD` with notes about the script.
+- Expanded `README.md` with quick-start instructions.
+
 ## Emergency Contacts and Escalation
 
 If you encounter critical issues or need architectural decisions:
