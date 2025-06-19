@@ -48,3 +48,8 @@ This sprint covers foundational tasks for building the initial prototype of LLM-
 - Test suite with passing unit and integration tests
 - Sprint review notes summarizing progress and next steps
 
+
+## Notes
+- Day 1 setup script added at scripts/day1_setup.sh to automate initial environment tasks. Actual kernel build not executed in repository due to environment limitations.
+
+- Kernel build attempted but failed due to missing libelf-dev; installation added. Compilation interrupted due to time limits.
