@@ -355,7 +355,7 @@ Before starting work on any component:
 - Added `scripts/day1_setup.sh` for DevOps automation of initial environment tasks.
 - Updated `SprintPlan.MD` with notes about the script.
 - Expanded `README.md` with quick-start instructions.
-
+- Documented kernel build attempt and added libelf-dev dependency.
 ## Emergency Contacts and Escalation
 
 If you encounter critical issues or need architectural decisions:

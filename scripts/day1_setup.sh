@@ -18,6 +18,7 @@ ping -c 1 github.com >/dev/null && echo "[09:15] Network connectivity OK" || ech
 # 09:30 - Install missing OS packages and drivers
 # Example for Debian-based systems
 sudo apt-get update && sudo apt-get install -y build-essential git qemu-system-x86
+sudo apt-get install -y libelf-dev
 
 # 09:45 - Set up workspace directories
 mkdir -p ~/workspace && cd ~/workspace
@@ -28,12 +29,12 @@ if [ ! -d llm-os ]; then
 fi
 cd llm-os
 
-git checkout llm-rag-os-main
+git checkout llm-rag-os-main 2>/dev/null || git checkout main
 
 git pull
 
 # 10:45 - Configure kernel build toolchain
-sudo apt-get install -y gcc make libncurses-dev flex bison openssl libssl-dev bc
+sudo apt-get install -y gcc make libncurses-dev flex bison openssl libssl-dev bc libelf-dev
 
 # 11:00 - Generate default kernel config
 cd llm-rag-os-kernel
