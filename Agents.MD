@@ -356,8 +356,12 @@ Before starting work on any component:
 - Updated `SprintPlan.MD` with notes about the script.
 - Expanded `README.md` with quick-start instructions.
 
+- Documented kernel build attempt and added libelf-dev dependency.
+
+
 - Created initial `LLM_KERNEL` skeleton in `kernel/llm` with stub scheduler
   structures.
+
 
 
 ## Emergency Contacts and Escalation
